@@ -10,10 +10,12 @@ A resource to help structure one-day or two-day speed-builds of fullstack applic
 ### Application Prompt Script
 
 ```python
-# Add to the backend options array if desired. (ie Rails)
+# Add or remove backend frameworks the backend array if desired. (Rails, Django etc)
+# Add or remove frontend frameworks the frond array if desired. (Angular, VueJS etc)
 # And change no_frontend to True if you want to just build an raw API.
 
 backend = ["Express", "Flask"]
+frontend = ["React"]
 no_frontend = False
 
 idea_a = ["Instagram", "Reddit", "Yelp"]
